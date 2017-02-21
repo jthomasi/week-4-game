@@ -1,0 +1,8 @@
+ul {
+  white-space: nowrap;
+}
+
+ul, li, #imageButtons {
+  list-style: none;
+  display: inline;
+}
