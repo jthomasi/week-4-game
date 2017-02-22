@@ -1,8 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../images/background.jpg");
+}
+
 ul {
-  white-space: nowrap;
+  	white-space: nowrap;
 }
 
 ul, li, #imageButtons {
-  list-style: none;
-  display: inline;
+  	list-style: none;
+  	display: inline;
+}
+
+h1 {
+	width: 335px;
+    background-color: #cc5200;
+    padding: 20px;
+}
+
+#mainText {
+	width: 460px;
+	color: green;
+	background-color: bisque;
+	padding: 20px 0px 20px 12px;
+	margin-left: 10px;
+}
+
+#crystalNumber {
+	width: 22%;
+	height: 125px;
+	background-color: lightgreen;
+	font-size: 25px;
+	margin-left: 10px;
+	padding: 8px 0px 0px 7px;
+	display: inline-block;
+}
+
+#scoreKeeper {
+	background-color: deepskyblue;
+	width: 10%;
+	height: 125px;
+	padding-left: 18px;
+	display: inline-block;
+	margin-top: 13px;
+	margin-bottom: 15px;
+}
+
+#imageButtons {
+	margin-left: 10px;
+
+}
+
+#totalScoreScore {
+	background-color: #008080;
+	color: white;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 22%;
+	padding-left: 8px;
+}
+
+#totalScore {
+	background-color: #008080;
+	color: white;
+	margin-left: 10px;
+	margin-top: 0px;
+	width: 22%;
+	padding: 8px 0px 0px 10px;
+	font-size: 25px;
+	height: 125px;
 }
